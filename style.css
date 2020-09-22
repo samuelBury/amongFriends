@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Architects";
-    src: url("font/ArchitectsDaughter-Regular.ttf");
+    src: url("font/DancingScript-VariableFont_wght.ttf");
 }
 .global{
     display: flex;
@@ -24,11 +24,10 @@ nav{
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     justify-content: space-between;
 }
 .menu__item{
-    border-bottom: 2px rgb(126, 127, 129) solid;
     margin-right: 5px;
     font-size: 20px;
 
@@ -50,18 +49,20 @@ nav{
     font-family: Architects;
     font-size: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .heading__side{
-    position: sticky;
-    top: 50%;
+    position: fixed;
+    top: 280px;
+}
 }
 .main__img{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.main__subtitle{
+.main__img__subtitle{
     color: rgb(126, 127, 129);
 }
