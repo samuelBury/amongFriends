@@ -3,6 +3,7 @@
 }
 .heading__right{
     padding:  0;
+    font-size: 15px;
 }
 .heading__right__option{
     display: flex;
@@ -20,4 +21,8 @@
 }
 .menu{
     flex-wrap: wrap;
+    font-size: 10px;
+}
+.main__center{
+    font-size: 30px;
 }
