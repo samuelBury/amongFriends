@@ -1,0 +1,16 @@
+.heading{
+    flex-direction: column-reverse;
+}
+.heading__right{
+    padding:  0;
+}
+.heading__right__option{
+    display: flex;
+    justify-content: center;
+}
+.heading__left{
+    justify-content: center;
+}
+.logo__font{
+    margin: 0;
+}
