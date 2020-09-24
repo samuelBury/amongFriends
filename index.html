@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style_mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style_mobile.css" />
 </head>
 
 <body>
@@ -56,7 +56,11 @@
         <div class="main__center">
             <p>"La mode passe, le style reste"</p>
 
-            <img src="assets/bureau.jpg" alt="nos locaux">
+            <img srcset="
+            assets/bureau/bureau-640w.jpg 640w,
+            assets/bureau/bureau-300w.jpg 300w"
+            sizes="(max-width: 660px ) 300px, 640px"
+            src="assets/bureau/bureau-640w.jpg" alt="nos locaux">
         </div>
         <div class="main__asideRight"></div>
     </div>

@@ -10,10 +10,14 @@
 }
 .heading__left{
     justify-content: center;
+    margin-top: 40px;
 }
 .logo__font{
     margin: 0;
 }
 .main{
     flex-direction: column;
+}
+.menu{
+    flex-wrap: wrap;
 }
