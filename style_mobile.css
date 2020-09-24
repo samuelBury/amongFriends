@@ -14,3 +14,6 @@
 .logo__font{
     margin: 0;
 }
+.main{
+    flex-direction: column;
+}
