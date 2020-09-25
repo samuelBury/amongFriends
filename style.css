@@ -207,3 +207,10 @@ a{
     -webkit-box-orient: vertical;
     
 }
+.item{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
