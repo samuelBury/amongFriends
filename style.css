@@ -198,7 +198,7 @@ a{
     display: -webkit-box;
     flex-direction: column;
     -webkit-box-orient: vertical;
-    align-items: flex-end;
+    
     -webkit-box-align: end;
 }
 .align_left{

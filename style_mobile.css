@@ -28,3 +28,10 @@ li:hover{
     font-size: 12px;
     
 }
+.align_right{
+    -webkit-box-align: center;
+}
+.align_left{
+    -webkit-box-align: center;
+
+}
