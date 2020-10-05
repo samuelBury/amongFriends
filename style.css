@@ -69,10 +69,6 @@ li:hover > ul{
     overflow: hidden;
     background-color: white;
 }
-li:hover{
-    font-size: 21px;
-    
-}
 
 
 .menu{
@@ -216,7 +212,4 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-li{
-    text-align: center;
 }
