@@ -191,6 +191,7 @@ a{
 }
 .text{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .align_right{
     display: flex;

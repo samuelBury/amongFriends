@@ -24,6 +24,7 @@
     flex-wrap: wrap;
     font-size: 10px;
 }
-.main__center{
-    font-size: 30px;
+li:hover{
+    font-size: 12px;
+    
 }
