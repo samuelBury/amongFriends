@@ -11,6 +11,7 @@
 }
 .heading__left{
     justify-content: center;
+    min-width: 160px;
     
 }
 .logo__font{
