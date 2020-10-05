@@ -23,6 +23,8 @@
 .menu{
     flex-wrap: wrap;
     font-size: 10px;
+    align-content: center;
+    flex-direction: column;
 }
 li:hover{
     font-size: 12px;

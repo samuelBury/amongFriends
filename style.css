@@ -117,6 +117,7 @@ a{
 .logo__font{
     
     margin-left: 52px;
+    text-align: center;
 }
 .heading__right{
     width: 15%;
@@ -125,7 +126,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     padding-right: 10px;
-    padding-top: 20px;
+    
    
 }
 .main{
@@ -214,4 +215,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+li{
+    text-align: center;
 }
