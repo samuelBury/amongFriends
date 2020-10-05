@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="heading">
+    <div class="heading" id="navbar">
         <div class="heading__Left">
             <div class="logo">
                 <p class="logo__font">A.F & Co</p>
@@ -131,6 +131,20 @@
         <div class="heading__right">
             <p class="heading__right__option">EN</p>
         </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
     </div>
     <div class="main">
         <div class="main__asideLeft">

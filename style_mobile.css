@@ -23,7 +23,7 @@
 }
 .menu{
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 14px;
     align-content: center;
     flex-direction: column;
 }
@@ -41,3 +41,6 @@ li:hover{
 li{
     text-align: center;
 }
+.sticky {
+    position: relative;}
+   
