@@ -150,6 +150,7 @@ a{
 .network{
     position: sticky;
     top: 300;
+    font-size: 20px;
 }
 
 .main__center{
