@@ -70,7 +70,9 @@ li:hover > ul{
     overflow: hidden;
     background-color: white;
 }
-
+.vert{
+    color: rgb(153, 191, 105);
+}
 
 .menu{
     margin-right: 5px;
@@ -113,7 +115,7 @@ a{
     color: black;
 }
 .logo__font{
-    
+    color: black;
     margin-left: 52px;
     text-align: center;
 }
@@ -126,6 +128,9 @@ a{
     padding-right: 10px;
     
    
+}
+.heading__right__option{
+    color: black;
 }
 .main{
     display: flex;
