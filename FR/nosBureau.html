@@ -1,20 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
+    <title>Among Friends</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style_mobile.css" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
     <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="heading" id="navbar">
         <div class="heading__Left">
-            <div class="logo">
-                <p class="logo__font">A.F & Co</p>
+            <a href="index.html">
+                <div class="logo">
+                    <p class="logo__font">A.F & Co</p>
 
-            </div>
+                </div>
+            </a>
         </div>
         <div class="heading__center">
 
@@ -42,6 +46,14 @@
                         </p>
                     </a>
                     <ul>
+                        <li>
+                            <a href="nosServices.html#partenariat">
+                                <p class="menu__item">Partenariat avec les usines
+
+
+                                </p>
+                            </a>
+                        </li>
                         <li>
                             <a href="nosServices.html#matiere">
                                 <p class="menu__item">Recherche de matières
@@ -128,43 +140,43 @@
 
         </div>
         <div class="heading__right">
+            <a href="../EN/nosBureau.html">
             <p class="heading__right__option">EN</p>
+            </a>
         </div>
         <script>
-            window.onscroll = function() {myFunction()};
-            
+            window.onscroll = function () { myFunction() };
+
             var navbar = document.getElementById("navbar");
             var sticky = navbar.offsetTop;
-            
+
             function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
             }
-            </script>
+        </script>
     </div>
     <div class="main">
         <div class="main__asideLeft">
 
         </div>
         <div class="main__center item">
-        
+
             <div class="align_right"><img srcset="
-                assets/nosBureau/nosBureau-842.jpg 842w,
-                assets/nosBureau/nosBureau-vMobile396.jpg 396w"
-                sizes="(max-width: 882px ) 396px, 842px"
-                src="assets/nosBureau/nosBureau-842.jpg" alt="bureau" />
+                ../assets/nosBureau/nosBureau-842.jpg 842w,
+                ../assets/nosBureau/nosBureau-vMobile396.jpg 396w" sizes="(max-width: 882px ) 396px, 842px"
+                    src="../assets/nosBureau/nosBureau-842.jpg" alt="bureau" />
                 <p class="marginO">France</p>
                 <p class="marginO">20, rue de Belfort</p>
                 <p class="marginO">75011 Paris</p>
                 <p class="marginO">Phone: + 33 1 48 87 90 95</p>
             </div>
-            <div class="align_left"><img srcset="assets/nosBureau/nosBureau2-886.jpg 886w,
-                assets/nosBureau2-vMobile399.jpg 399w"
-                sizes="(max-width: 882px) 399px , 886px "
-                src="assets/nosBureau/nosBureau2-886.jpg" alt="Bureau" />
+            <div class="align_left"><img srcset="../assets/nosBureau/nosBureau2-886.jpg 886w,
+                ../assets/nosBureau2-vMobile399.jpg 399w" sizes="(max-width: 882px) 399px , 886px "
+                    src="../assets/nosBureau/nosBureau2-886.jpg" alt="Bureau" />
                 <p>India</p>
                 <p>AFI BA Pvt. Ltd.
                 </p>
@@ -192,7 +204,7 @@
         </p>
     </div>
 
-    </div>
+    
 
 
 </body>

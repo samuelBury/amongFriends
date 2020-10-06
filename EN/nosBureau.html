@@ -1,50 +1,62 @@
-<html>
+<!DOCTYPE html>
+<html lang="EN">
 
 <head>
+    <title>Among Friends</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style_mobile.css" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
     <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="heading" id="navbar">
         <div class="heading__Left">
-            <div class="logo">
-                <p class="logo__font">A.F & Co</p>
+            <a href="index.html">
+                <div class="logo">
+                    <p class="logo__font">A.F & Co</p>
 
-            </div>
+                </div>
+            </a>
         </div>
         <div class="heading__center">
 
             <ul class="menu">
                 <li>
                     <a href="index.html">
-                        <p class="menu__item">Accueil</p>
+                        <p class="menu__item">Home</p>
                     </a>
                 </li>
                 <li>
                     <a href="nous.html">
-                        <p class="using menu__item">Nous
+                        <p class="menu__item">About us
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="nosBureau.html">
-                        <p class="menu__item">Nos Bureaux
+                        <p class="using menu__item">Offices
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="nosServices.html">
-                        <p class="menu__item">Nos Services
+                        <p class="menu__item">Services
                         </p>
                     </a>
                     <ul>
                         <li>
+                            <a href="nosServices.html#partenariat">
+                                <p class="menu__item">Partnership with factories​
+
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
                             <a href="nosServices.html#matiere">
-                                <p class="menu__item">Recherche de matières
+                                <p class="menu__item">Fabrics Sourcing​
 
 
                                 </p>
@@ -52,21 +64,21 @@
                         </li>
                         <li>
                             <a href="nosServices.html#dlpmt">
-                                <p class="menu__item">Création et Développement produit
+                                <p class="menu__item">Design and Product Development​
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="nosServices.html#atelier">
-                                <p class="menu__item">Atelier d’échantillonnage
+                                <p class="menu__item">Sampling room​
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="nosServices.html#qualite">
-                                <p class="menu__item">Contrôle Qualité
+                                <p class="menu__item">Quality Control
 
 
                                 </p>
@@ -76,34 +88,34 @@
                 </li>
                 <li>
                     <a href="produits.html">
-                        <p class="menu__item">Produits
+                        <p class="menu__item">Products
                         </p>
                     </a>
                     <ul>
                         <li>
                             <a href="produits.html#pap">
-                                <p class="menu__item">Prêt-à-porter féminin
+                                <p class="menu__item">Womenswear
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="produits.html#cuir">
-                                <p class="menu__item">Cuir
+                                <p class="menu__item">Leatherwear
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="produits.html#accessoires">
-                                <p class="menu__item">Accessoires
+                                <p class="menu__item">Accessories
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="produits.html#enfant">
-                                <p class="menu__item">Production pour les enfants et bébés
+                                <p class="menu__item">Childrenwear
 
 
                                 </p>
@@ -113,7 +125,7 @@
                 </li>
                 <li>
                     <a href="durable.html">
-                        <p class="menu__item">Durable
+                        <p class="menu__item">Sustainability
                         </p>
                     </a>
                 </li>
@@ -128,43 +140,57 @@
 
         </div>
         <div class="heading__right">
-            <p class="heading__right__option">EN</p>
+            <a href="../FR/nosBureau.html">
+            <p class="heading__right__option">FR</p>
+            </a>
         </div>
         <script>
-            window.onscroll = function() {myFunction()};
-            
+            window.onscroll = function () { myFunction() };
+
             var navbar = document.getElementById("navbar");
             var sticky = navbar.offsetTop;
-            
+
             function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
             }
-            </script>
+        </script>
     </div>
     <div class="main">
         <div class="main__asideLeft">
 
         </div>
-        <div class="main__center text">
-            <p>Après avoir créé et travaillé pour des bureaux de sourcing au sein de groupes comme PPR, Quelle, Otto et
-                Beaumanoir pendant plus de vingt ans, Vandana a décidé de fonder son propre bureau afin de mettre son
-                expertise au service des marques partenaires.</p><br>
-            <p>AFC ( Among Friends & Co ) est un bureau d’achat et de sourcing qui fournit des collections de
-                prêt-à-porter et d’accessoires, du style et des facilitations de sourcing à ses clients à travers le
-                monde.
-            </p><br>
-            <p>Avec un showroom à Paris, au coeur de la mode, mais ayant également un bureau de sourcing au sein du hub
-                d’usines à Delhi en Inde, AFC apporte à ses clients une fusion entre les besoins de ses clients
-                européens et le savoir-faire indien.
-            </p>
-            <br>
-            <p>Véritable expert du sourcing, nous fournissons à nos clients des solutions clés en main dans le respect
-                de nos valeurs et en toute transparence vis à vis de nos fournisseurs.
-            </p>
+        <div class="main__center item">
+
+            <div class="align_right"><img srcset="
+                ../assets/nosBureau/nosBureau-842.jpg 842w,
+                ../assets/nosBureau/nosBureau-vMobile396.jpg 396w" sizes="(max-width: 882px ) 396px, 842px"
+                    src="../assets/nosBureau/nosBureau-842.jpg" alt="bureau" />
+                <p class="marginO">France</p>
+                <p class="marginO">20, rue de Belfort</p>
+                <p class="marginO">75011 Paris</p>
+                <p class="marginO">Phone: + 33 1 48 87 90 95</p>
+            </div>
+            <div class="align_left"><img srcset="../assets/nosBureau/nosBureau2-886.jpg 886w,
+                ../assets/nosBureau2-vMobile399.jpg 399w" sizes="(max-width: 882px) 399px , 886px "
+                    src="../assets/nosBureau/nosBureau2-886.jpg" alt="Bureau" />
+                <p>India</p>
+                <p>AFI BA Pvt. Ltd.
+                </p>
+                <p>12, Dakshin Marg
+                </p>
+                <p>DlF Phase II, Gurugram, Haryana
+                </p>
+                <p>Phone: + 91 124 2350 282
+                </p>
+            </div>
+
+
+
+
 
 
         </div>
@@ -178,7 +204,7 @@
         </p>
     </div>
 
-    </div>
+    
 
 
 </body>

@@ -1,20 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
+    <title>Among Friends</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style_mobile.css" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
     <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="heading" id="navbar">
         <div class="heading__Left">
-            <div class="logo">
-                <p class="logo__font">A.F & Co</p>
+            <a href="index.html">
+                <div class="logo">
+                    <p class="logo__font">A.F & Co</p>
 
-            </div>
+                </div>
+            </a>
         </div>
         <div class="heading__center">
 
@@ -42,6 +46,14 @@
                         </p>
                     </a>
                     <ul>
+                        <li>
+                            <a href="nosServices.html#partenariat">
+                                <p class="menu__item">Partenariat avec les usines
+
+
+                                </p>
+                            </a>
+                        </li>
                         <li>
                             <a href="nosServices.html#matiere">
                                 <p class="menu__item">Recherche de matières
@@ -128,23 +140,24 @@
 
 
         </div>
-        <div class="heading__right">
-            <p class="heading__right__option">EN</p>
+        <div class="heading__right"><a href="../EN/nosServices.html">
+                <p class="heading__right__option">EN</p>
+            </a>
         </div>
         <script>
-            window.onscroll = function() {myFunction()};
-            
+            window.onscroll = function () { myFunction() };
+
             var navbar = document.getElementById("navbar");
             var sticky = navbar.offsetTop;
-            
+
             function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
             }
-            </script>
+        </script>
     </div>
     <div class="main">
         <div class="main__asideLeft">
@@ -160,9 +173,22 @@
                     leurs
                     clients finaux .
                 </p>
-                <img src="assets/nosServices/sevicesShema.PNG" alt="shema de nos services">
+                <img src="../assets/nosServices/sevicesShema.PNG" alt="shema de nos services">
             </div>
-
+            <div class="item">
+                <h1 id="partenariat">Partenariat avec les usines</h1>
+                <p>En créant de véritables partenariats avec une selection de fournisseurs en Inde en fonction de leur
+                    savoir-faire, nous garantissons un niveau constant de qualité dans notre service mais également dans
+                    nos produits.
+                    Avoir notre propre bureau en Inde basé à côté des
+                    usines, nous assure une grande réactivité et nous permet de gérer au plus près les délais et les
+                    capacités de production.
+                    Notre panel de fournisseurs étant autour de Delhi, nous sommes en mesure de nous adapter aux besoins
+                    de nos clients en terme de style, d’achat, de quantité et de livraison.</p>
+                <img srcset="../assets/nosServices/partenariat-vMobile399.PNG 399w,
+                ../assets/nosServices/partenariat.PNG 562w" sizes="(max-width: 882px) 399px , 562px"
+                    src="../assets/nosServices/partenariat.PNG" alt="usines">
+            </div>
             <div class="item">
                 <h1 id="matiere">Recherche de matières</h1>
                 <p>Nous sommes en mesure de sourcer des matières de différentes provenances comme l’Inde, l’Asie et
@@ -172,10 +198,9 @@
                     usines en fonction de leur savoir-faire.
                     Nous développons également nos propres imprimés et proposons des nouveautés tous les mois.
                 </p>
-                <img srcset="assets/nosServices/matière-vMobile397.PNG 397w,
-                assets/nosServices/matière.PNG 593w"
-                sizes="(max-width: 882px) 397px , 593px"
-                 src="assets/nosServices/matière.PNG" alt="matérère de nos habits">
+                <img srcset="../assets/nosServices/matière-vMobile397.PNG 397w,
+                ../assets/nosServices/matière.PNG 593w" sizes="(max-width: 882px) 397px , 593px"
+                    src="../assets/nosServices/matière.PNG" alt="matérère de nos habits">
             </div>
             <div class="item">
                 <h1 id="dlpmt">Création et Développement produit</h1>
@@ -189,10 +214,9 @@
                     Nous apportons des nouveautés tous les mois afin
                     d’être au plus proche des dernières tendances.
                 </p>
-                <img srcset="assets/nosServices/croquisHabits-vMobile400.PNG 400w,
-                assets/nosServices/croquisHabits.PNG 588w"
-                sizes="(max-width: 882px) 400px, 588px"
-                src="assets/nosServices/croquisHabits.PNG" alt="habits et croquis">
+                <img srcset="../assets/nosServices/croquisHabits-vMobile400.PNG 400w,
+                ../assets/nosServices/croquisHabits.PNG 588w" sizes="(max-width: 882px) 400px, 588px"
+                    src="../assets/nosServices/croquisHabits.PNG" alt="habits et croquis">
             </div>
 
 
@@ -203,10 +227,9 @@
                     les
                     vêtements que pour les accessoires.
                 </p>
-                <img srcset="assets/nosServices/usines-vMobile397.PNG 397w,
-                assets/nosServices/usines.PNG 559w"
-                sizes="(max-width: 882px) 397px,559px"
-                src="assets/nosServices/usines.PNG" alt="Atelier d'échantillonnage">
+                <img srcset="../assets/nosServices/usines-vMobile397.PNG 397w,
+                ../assets/nosServices/usines.PNG 559w" sizes="(max-width: 882px) 397px,559px"
+                    src="../assets/nosServices/usines.PNG" alt="Atelier d'échantillonnage">
             </div>
             <div class="item">
                 <h1 id="qualite">Contrôle Qualité</h1>
@@ -237,7 +260,7 @@
         </p>
     </div>
 
-    </div>
+
 
 
 </body>

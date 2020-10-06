@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Among Friends</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
+    <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="heading" id="navbar">
+        <div class="heading__Left">
+            <a href="index.html">
+                <div class="logo">
+                    <p class="logo__font">A.F & Co</p>
+
+                </div>
+            </a>
+        </div>
+        <div class="heading__center">
+
+            <ul class="menu">
+                <li>
+                    <a href="index.html">
+                        <p class="menu__item">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="nous.html">
+                        <p class="menu__item">About us
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="nosBureau.html">
+                        <p class="menu__item">Offices
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="nosServices.html">
+                        <p class="using menu__item">Services
+                        </p>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="nosServices.html#partenariat">
+                                <p class="menu__item">Partnership with factories​
+
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="nosServices.html#matiere">
+                                <p class="menu__item">Fabrics Sourcing​
+
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="nosServices.html#dlpmt">
+                                <p class="menu__item">Design and Product Development​
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="nosServices.html#atelier">
+                                <p class="menu__item">Sampling room​
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="nosServices.html#qualite">
+                                <p class="menu__item">Quality Control
+
+
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="produits.html">
+                        <p class="menu__item">Products
+                        </p>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="produits.html#pap">
+                                <p class="menu__item">Womenswear
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produits.html#cuir">
+                                <p class="menu__item">Leatherwear
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produits.html#accessoires">
+                                <p class="menu__item">Accessories
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="produits.html#enfant">
+                                <p class="menu__item">Childrenwear
+
+
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="durable.html">
+                        <p class="menu__item">Sustainability
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="CGV.html">
+                        <p class="menu__item">CGV
+                        </p>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="heading__right">
+            <p class="heading__right__option">EN</p>
+        </div>
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </div>
+    <div class="main">
+        <div class="main__asideLeft">
+
+        </div>
+        <div class="main__center text">
+            <div class="item">
+                <p>Starting from fabric-sourcing, product-development, sampling, production, quality control, we work
+                    with our partner suppliers every process in order to ensure a complete customer-satisfaction, not
+                    only for the prestigious Brands we work with, but for the end-customers too.​
+                </p>
+                <img src="../assets/nosServices/sevicesShema.PNG" alt="shema de nos services">
+            </div>
+            <div class="item">
+                <h1 id="partenariat">Partnership with factories​</h1>
+                <p>Creating partnerships with suppliers across India for production, we guarantee to have a steady
+                    quality level in service, quality as well as products. Having our own office in India, allows us to
+                    deliver on time in terms of capacity and production-planning. Our majority of partner suppliers are
+                    based around Delhi which gives us a tighter control.​
+
+                    Thanks to this supplier portfolios, we are flexible and able to cater to the collection &
+                    buying-needs of our customers in terms of quantity & delivery..</p>
+                <img srcset="../assets/nosServices/partenariat-vMobile399.PNG 399w,
+                ../assets/nosServices/partenariat.PNG 562w" sizes="(max-width: 882px) 399px , 562px"
+                    src="../assets/nosServices/partenariat.PNG" alt="usines">
+            </div>
+            <div class="item">
+                <h1 id="matiere">Fabrics Sourcing​</h1>
+                <p>Having an excellent fabric sourcing team, who visits Texworld & other fairs, bringing fabric sourcing
+                    from Far-east/Europe/ India and offering a fusion of Indian savoire-faire to these exclusive
+                    fabrics.​
+
+                    Simultaneously we have a rich archive of our own prints created by talented designers from France /
+                    Spain & UK on a regular basis.​
+                </p>
+                <img srcset="../assets/nosServices/matière-vMobile397.PNG 397w,
+                ../assets/nosServices/matière.PNG 593w" sizes="(max-width: 882px) 397px , 593px"
+                    src="../assets/nosServices/matière.PNG" alt="matérère de nos habits">
+            </div>
+            <div class="item">
+                <h1 id="dlpmt">Design and Product Development</h1>
+                <p>Product development team in AFC is continuously working on new development of craftsmanship,
+                    embroideries, silhouettes based on shopping trips, Fashion weeks, Fairs across the globe and
+                    research on WGSN/Style.Com.​
+
+                    ​
+
+                    We have British and French designers working on new developments adapting to our client's requests.​
+
+                    ​
+
+                    We offer newness every months based on the latest trends .​
+                </p>
+                <img srcset="../assets/nosServices/croquisHabits-vMobile400.PNG 400w,
+                ../assets/nosServices/croquisHabits.PNG 588w" sizes="(max-width: 882px) 400px, 588px"
+                    src="../assets/nosServices/croquisHabits.PNG" alt="habits et croquis">
+            </div>
+
+
+            <div class="item">
+                <h1 id="atelier">Sampling room​</h1>
+                <p>A dedicated sampling-unit, translating the latest trends in forms of garments, accessories and
+                    working closely with the brands in developing the collections.​
+                </p>
+                <img srcset="../assets/nosServices/usines-vMobile397.PNG 397w,
+                ../assets/nosServices/usines.PNG 559w" sizes="(max-width: 882px) 397px,559px"
+                    src="../assets/nosServices/usines.PNG" alt="Atelier d'échantillonnage">
+            </div>
+            <div class="item">
+                <h1 id="qualite">Quality Control​</h1>
+                <p>Quality Assurance & Quality Control:​
+
+                    Our Quality team works in tandem with the brands and with the factories to reduce the lead-time for
+                    technical fits and number of submissions.​
+                </p><br>
+                <p>The Quality control team is on factory floor on a regular basis to ensure the Inline and final
+                    inspections are done as per the required AQL or Inspection standards of the customers.
+                </p><br>
+                <p>The successful quick turn-around of orders for our​
+
+                    customers are evidence of that.​
+                </p>
+            </div>
+
+
+        </div>
+        <div class="main__asideRight"></div>
+    </div>
+    <div class="footing">
+        <p>Copyright Among Friends & Co 2020</p>
+        <p class="network">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </p>
+    </div>
+
+
+
+
+</body>
+
+</html>

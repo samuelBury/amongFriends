@@ -19,6 +19,7 @@ body{
 .heading{
     display: -webkit-box;
     display: flex;
+    justify-content: center;
     width: 100%;
     background-color: rgb(249, 249, 249);
     box-shadow: 0 0 20px #efefef;
@@ -58,9 +59,9 @@ ul{
     padding: 0;
 }
 li > ul{
-    z-index: 3;
-    position: absolute;
-    top: 40;
+   
+    position: fixed;
+    
     display: none;
     padding: 20px;
 }
@@ -109,6 +110,7 @@ a{
     justify-content: center;
     font-family: paytone;
     font-size: 35px;
+    color: black;
 }
 .logo__font{
     
@@ -116,7 +118,7 @@ a{
     text-align: center;
 }
 .heading__right{
-    width: 15%;
+    width: 10%;
     
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;

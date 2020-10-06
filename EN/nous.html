@@ -1,51 +1,62 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
+    <title>Among Friends</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style_mobile.css" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
     <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
-    
 </head>
 
 <body>
     <div class="heading" id="navbar">
         <div class="heading__Left">
-            <div class="logo">
-                <p class="logo__font">A.F & Co</p>
+            <a href="index.html">
+                <div class="logo">
+                    <p class="logo__font">A.F & Co</p>
 
-            </div>
+                </div>
+            </a>
         </div>
         <div class="heading__center">
 
             <ul class="menu">
                 <li>
                     <a href="index.html">
-                        <p class="menu__item">Accueil</p>
+                        <p class="menu__item">Home</p>
                     </a>
                 </li>
                 <li>
                     <a href="nous.html">
-                        <p class="menu__item">Nous
+                        <p class="using menu__item">About us
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="nosBureau.html">
-                        <p class="menu__item">Nos Bureaux
+                        <p class="menu__item">Offices
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="nosServices.html">
-                        <p class="menu__item">Nos Services
+                        <p class="menu__item">Services
                         </p>
                     </a>
                     <ul>
                         <li>
+                            <a href="nosServices.html#partenariat">
+                                <p class="menu__item">Partnership with factories​
+
+
+                                </p>
+                            </a>
+                        </li>
+                        <li>
                             <a href="nosServices.html#matiere">
-                                <p class="menu__item">Recherche de matières
+                                <p class="menu__item">Fabrics Sourcing​
 
 
                                 </p>
@@ -53,21 +64,21 @@
                         </li>
                         <li>
                             <a href="nosServices.html#dlpmt">
-                                <p class="menu__item">Création et Développement produit
+                                <p class="menu__item">Design and Product Development​
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="nosServices.html#atelier">
-                                <p class="menu__item">Atelier d’échantillonnage
+                                <p class="menu__item">Sampling room​
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="nosServices.html#qualite">
-                                <p class="menu__item">Contrôle Qualité
+                                <p class="menu__item">Quality Control
 
 
                                 </p>
@@ -77,34 +88,34 @@
                 </li>
                 <li>
                     <a href="produits.html">
-                        <p class="menu__item">Produits
+                        <p class="menu__item">Products
                         </p>
                     </a>
                     <ul>
                         <li>
                             <a href="produits.html#pap">
-                                <p class="menu__item">Prêt-à-porter féminin
+                                <p class="menu__item">Womenswear
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="produits.html#cuir">
-                                <p class="menu__item">Cuir
+                                <p class="menu__item">Leatherwear
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="produits.html#accessoires">
-                                <p class="menu__item">Accessoires
+                                <p class="menu__item">Accessories
 
                                 </p>
                             </a>
                         </li>
                         <li>
                             <a href="produits.html#enfant">
-                                <p class="menu__item">Production pour les enfants et bébés
+                                <p class="menu__item">Childrenwear
 
 
                                 </p>
@@ -114,7 +125,7 @@
                 </li>
                 <li>
                     <a href="durable.html">
-                        <p class="using menu__item">Durable
+                        <p class="menu__item">Sustainability
                         </p>
                     </a>
                 </li>
@@ -128,45 +139,29 @@
 
 
         </div>
-        <div class="heading__right">
-            <p class="heading__right__option">EN</p>
+        <div class="heading__right"><a href="../FR/nous.html">
+                <p class="heading__right__option">FR</p>
+            </a>
         </div>
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
-            }
-            </script>
+        
     </div>
     <div class="main">
         <div class="main__asideLeft">
 
         </div>
         <div class="main__center text">
-            
-            <div class="item">
-                <h1>Mode Durable</h1>
-                <P>Soucieux de répondre aux enjeux environnementaux et de participer à l’evolution du mode de
-                    consommation, AFC développe ses partenariats avec des usines respectueuses des normes sociales et
-                    environnementales.
-                </P>
-                <p>Dans l’objectif de nous rapprocher d’un avenir plus écologique, nous offrons à nos clients
-                    différentes matières durables avec des certifications
-                    internationales et ce pour les vêtements et également pour les accessoires.
-                </p>
-                <img srcset="assets/durables/LogoDurable-vMobile397.PNG 397w,
-                assets/durables/LogoDurable.PNG 537w"
-                sizes="(max-width: 882px)397px, 537px"
-                src="assets/durables/LogoDurable.PNG" alt="enseigne développement durables">
-            </div>
+            <p>Founding a creative sourcing platform came to Vandana naturally after having created sourcing offices for
+                big groups like Beaumanoir, PPR(Koering ), Otto Versand etc in Asia(Indian subcontinent, China & Turkey
+                ), North Africa & France .​</p><br>
+            <p>AFC ( Among Friends & Co ) is a Buying Agency, providing design, collection and sourcing solutions to its
+                reputed customers around the world.​
+            </p><br>
+            <p>Established in the heart of Fashion, Paris, with a sourcing office in the middle of the creative-
+                manufacturing hub in New Delhi, India, AFC brings to its customer the fusion of European-need and Indian
+                value-addition,production-expertise with high ethical values and transparency.​
+            </p>
+
+
 
         </div>
         <div class="main__asideRight"></div>
@@ -179,7 +174,7 @@
         </p>
     </div>
 
-    </div>
+
 
 
 </body>
