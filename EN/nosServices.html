@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
     <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
+    <script src="../scripts.js"></script>
 </head>
 
 <body>
@@ -21,8 +22,15 @@
             </a>
         </div>
         <div class="heading__center">
+            <div class="menu__icon" id="menu_hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
 
-            <ul class="menu">
+            </div>
+
+            
+            <ul class="menu" id="menu_deroulant">
                 <li>
                     <a href="index.html">
                         <p class="menu__item">Home</p>
@@ -139,8 +147,9 @@
 
 
         </div>
-        <div class="heading__right">
-            <p class="heading__right__option">FR</p>
+        <div class="heading__right"> <a href="../FR/nosServices.html">
+                <p class="heading__right__option">FR</p>
+            </a>
         </div>
         <script>
             window.onscroll = function () { myFunction() };
@@ -155,6 +164,8 @@
                     navbar.classList.remove("sticky");
                 }
             }
+            
+            
         </script>
     </div>
     <div class="main">
@@ -167,7 +178,7 @@
                     with our partner suppliers every process in order to ensure a complete customer-satisfaction, not
                     only for the prestigious Brands we work with, but for the end-customers too.​
                 </p>
-                <img src="../assets/nosServices/sevicesShema.PNG" alt="shema de nos services">
+                <img src="../assets/nosServices/sevicesShemaEN.png" alt="shema de nos services">
             </div>
             <div class="item">
                 <h1 id="partenariat">Partnership with factories​</h1>

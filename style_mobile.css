@@ -22,14 +22,14 @@
     flex-direction: column;
 }
 .menu{
+    display: none;
     flex-wrap: wrap;
     font-size: 14px;
     align-content: center;
     flex-direction: column;
 }
-li:hover{
-    font-size: 12px;
-    
+.block{
+    display: block;
 }
 .align_right{
     -webkit-box-align: center;
@@ -51,3 +51,18 @@ li > ul{
     display: none;
     padding: 20px;
 }
+
+.menu__icon{
+    display: block;
+    cursor: pointer; 
+    
+}
+
+.menu__icon > div{
+    background-color: black;
+    width: 85%;
+    height: 4px;
+    margin: 3px;
+}
+
+
