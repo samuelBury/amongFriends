@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" media="screen and (max-width: 900px)" href="../style_mobile.css" />
     <script src="https://kit.fontawesome.com/b25b27ba37.js" crossorigin="anonymous"></script>
-    <script src="../scripts.js"></script>
+    
 </head>
 
 <body>
@@ -16,8 +16,9 @@
         <div class="heading__Left">
             <a href="index.html">
                 <div class="logo">
-                    <p class="logo__font">A.F & Co</p>
+                    <p class="logo__font">Among Friends<span class="vert"> & Co</span></p>
 
+                    <p>Paris</p>
                 </div>
             </a>
         </div>
@@ -28,6 +29,7 @@
                 <div></div>
 
             </div>
+            <script></script>
 
             
             <ul class="menu" id="menu_deroulant">
@@ -164,6 +166,18 @@
                     navbar.classList.remove("sticky");
                 }
             }
+            
+            var menu = document.getElementById('menu_deroulant');
+            var elt = document.getElementById('menu_hamburger');
+            elt.addEventListener('click',function(){
+                if (menu.getAttribute("display")=="none"){
+                    menu.style.display="block";
+                }
+                else{
+                    menu.removeAttribute("display")
+                }
+                
+            })
             
             
         </script>
