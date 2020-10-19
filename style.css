@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Dancing";
-    src: url("font/ArchitectsDaughter-Regular.ttf");
+    src: url("font/DancingScript-VariableFont_wght.ttf");
 }
 @font-face{
     font-family: "paytone";
@@ -150,9 +150,9 @@ a{
 }
 .main{
     display: flex;
-    display: -webkit-box;
+    flex-direction: column;
     width: 100%;
-    
+    align-items: center;
     justify-content: space-between;
     -webkit-box-pack:center;
 }
@@ -231,6 +231,7 @@ a{
 }
 .item{
     padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
