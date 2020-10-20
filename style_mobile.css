@@ -69,3 +69,6 @@ li > ul{
 .menu_ham{
     display: block;
 }
+.dancing > p{
+    font-size: 25px;
+}
