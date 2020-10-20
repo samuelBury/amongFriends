@@ -25,7 +25,7 @@
     display: none;
     flex-wrap: wrap;
     font-size: 14px;
-    align-content: center;
+
     flex-direction: column;
 }
 
@@ -66,4 +66,6 @@ li > ul{
     margin: 3px;
 }
 
-
+.menu_ham{
+    display: block;
+}

@@ -174,19 +174,16 @@ a{
 
 .main__center{
     
-        
-        display: flex;
-        display: -webkit-box;
-        flex-direction: column;
-        -webkit-box-orient: vertical;
-        justify-content: center;
-        -webkit-box-pack:center;
-        align-items: center;
-        -webkit-box-align: center;
-        width: 50%;
-    
-    
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    -webkit-box-align: center;
+    width: 50%;
 }
+
 .main__asideRight{
     
     height: 100%;
@@ -195,7 +192,7 @@ a{
 .footing{
     display: flex;
     display: -webkit-box;
-    flex-direction: column;
+    
     -webkit-box-orient: vertical;
     justify-content: center;
     
@@ -237,13 +234,31 @@ a{
     justify-content: center;
     align-items: center;
 }
-.sticky {
+
+
+.menu_ham{
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
     position: fixed;
+    left: 5px;
     top: 0;
-    width: 100%;}
-.menu__icon{
-    width: 50px;
-    height: 66px;
-    
     display: none;
+}
+.menu_ham > div{
+    margin-top: 5px;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+}
+.heading__Left{
+    margin-top: 25px;
+}
+.exit_menu{
+    left: 9px;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    display: none;
+    cursor: pointer;
 }
