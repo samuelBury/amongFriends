@@ -22,7 +22,7 @@
                 <i class="fas fa-times-circle"></i>
             </div>
             
-            <a href="index.html">
+            <a href="../index.html">
                 <div class="logo">
                     <p class="logo__font">Among Friends<span class="vert"> & Co</span></p>
 
@@ -36,61 +36,61 @@
 
             <ul class="menu" id="menu">
                 <li>
-                    <a href="index.html">
-                        <p class="menu__item">Home</p>
+                    <a href="../index.html">
+                        <p class="menu__item">Accueil</p>
                     </a>
                 </li>
                 <li>
                     <a href="nous.html">
-                        <p class="using menu__item">About us
+                        <p class="using menu__item">Nous
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="nosBureau.html">
-                        <p class="menu__item">Offices
+                        <p class="menu__item">Nos Bureaux
                         </p>
                     </a>
                 </li>
                 <li>
-                    <a href="nosService/usine.html">
-                        <p class="menu__item">Services
+                    <a href="nosServices/usine.html">
+                        <p class="menu__item">Nos Services
                         </p>
                     </a>
                     <ul>
                         <li>
-                            <a href="nosService/usine.html">
-                                <p class="menu__item">Partnership with factories​
+                            <a href="nosServices/usine.html">
+                                <p class="menu__item">Partenariat avec les usines
 
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="nosService/matiere.html">
-                                <p class="menu__item">Fabrics Sourcing​
+                            <a href="nosServices/matiere.html">
+                                <p class="menu__item">Recherche de matières
 
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="nosService/creation.html">
-                                <p class="menu__item">Design and Product Development​
+                            <a href="nosServices/creation.html">
+                                <p class="menu__item">Création et Développement produit
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="nosService/atelier.html">
-                                <p class="menu__item">Sampling room​
+                            <a href="nosServices/atelier.html">
+                                <p class="menu__item">Atelier d’échantillonnage
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="nosService/controle.html">
-                                <p class="menu__item">Quality Control
+                            <a href="nosServices/controle.html">
+                                <p class="menu__item">Contrôle Qualité
 
 
                                 </p>
@@ -99,35 +99,35 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="produit/pap.html">
-                        <p class="menu__item">Products
+                    <a href="produits/pap.html">
+                        <p class="menu__item">Produits
                         </p>
                     </a>
                     <ul>
                         <li>
-                            <a href="produit/pap.html">
-                                <p class="menu__item">Womenswear
+                            <a href="produits/pap.html">
+                                <p class="menu__item">Prêt-à-porter féminin
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="produit/cuir.html">
-                                <p class="menu__item">Leatherwear
+                            <a href="produits/cuir.html">
+                                <p class="menu__item">Cuir
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="produit/Accessoire.html">
-                                <p class="menu__item">Accessories
+                            <a href="produits/Accessoire.html">
+                                <p class="menu__item">Accessoires
 
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="produit/enfant.html">
-                                <p class="menu__item">Childrenwear
+                            <a href="produits/enfant.html">
+                                <p class="menu__item">Production pour les enfants et bébés
 
 
                                 </p>
@@ -137,13 +137,13 @@
                 </li>
                 <li>
                     <a href="durable.html">
-                        <p class="menu__item">Sustainability
+                        <p class="menu__item">Durable
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="contacte.php">
-                        <p class="menu__item">Contact
+                        <p class="menu__item">Contacte
                         </p>
                     </a>
                 </li>
@@ -155,30 +155,62 @@
                 </li>
             </ul>
 
-
+            
         </div>
-        <div class="heading__right"><a href="../FR/nous.html">
-                <p class="heading__right__option">FR</p>
+        <div class="heading__right">
+            <a href="../EN/nous.html">
+            <p class="heading__right__option">EN</p>
             </a>
         </div>
-        
+
+
     </div>
     <div class="main">
         <div class="main__asideLeft">
 
         </div>
-        <div class="main__center text item">
-            <p>Founding a creative sourcing platform came to Vandana naturally after having created sourcing offices for
-                big groups like Beaumanoir, PPR(Koering), Otto Versand etc in Asia(Indian subcontinent, China & Turkey), North Africa & France .​</p><br>
-            <p>AFC (Among Friends & Co) is a Buying Agency, providing design, collection and sourcing solutions to its
-                reputed customers around the world.​
-            </p><br>
-            <p>Established in the heart of Fashion, Paris, with a sourcing office in the middle of the creative-
-                manufacturing hub in New Delhi, India, AFC brings to its customer the fusion of European-need and Indian
-                value-addition,production-expertise with high ethical values and transparency.​
-            </p>
-
-
+        <div class="main__center">
+            <div class="item-left">
+                <p>AFC : +33148879095</p>
+                
+                <p>AFI : +911242350282</p>
+                <a href="mailto:contact@among-friends.fr">
+                <p>email : contact@among-friends.fr</p></a>
+            </div>
+            <div class="item">
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">e-mail :</label>
+                    <input type="email" id="mail" name="email">
+                </div>
+                <div>
+                    <label for="msg">Message :</label>
+                    <textarea id="msg" name="message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Envoyer le message</button>
+                </div>
+                </form>
+                
+            </div>
+            <?php
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if ($position_arobase === false)
+            echo '<p>Votre email doit comporter un arobase.</p>';
+        else {
+            $retour = mail('contact@among-friends.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+            if($retour)
+                echo '<p>Votre message a été envoyé.</p>';
+            else
+                echo '<p>Erreur.</p>';
+        }
+    }
+    ?>
 
         </div>
         <div class="main__asideRight"></div>

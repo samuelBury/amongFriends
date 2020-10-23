@@ -18,8 +18,12 @@
     margin: 0;
     
 }
+.little-font{
+    font-size: 16px;
+}
 .main{
     flex-direction: column;
+    margin: 45px;
 }
 .menu{
     display: none;
@@ -69,16 +73,11 @@ li > ul{
 .menu_ham{
     display: block;
 }
-.dancing > p{
-    font-size: 25px;
-}
+
 h1{
     font-size: 18px;
 }
-.main p{
-    font-size: 12px;
-    width: 80%;
-}
+
 .logo__font{
     font-size: 25px;
 }
